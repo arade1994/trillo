@@ -316,6 +316,11 @@
 
   &__item::before {
     content: "";
+    //OLD BROWSERS
+    background-image: url(../img/chevron-thin-right.svg);
+    background-size: cover;
+
+    // NEW BROWSERS
     background-color: var(--color-primary);
     -webkit-mask-image: url(../img/chevron-thin-right.svg);
     -webkit-mask-size: cover;

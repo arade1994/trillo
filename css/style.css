@@ -295,6 +295,8 @@ body {
     margin-bottom: 0.7rem; }
   .list__item::before {
     content: "";
+    background-image: url(../img/chevron-thin-right.svg);
+    background-size: cover;
     background-color: var(--color-primary);
     -webkit-mask-image: url(../img/chevron-thin-right.svg);
     -webkit-mask-size: cover;
